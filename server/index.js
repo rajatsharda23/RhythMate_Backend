@@ -13,7 +13,7 @@ const uri = process.env.URI
 const client_id = process.env.CLIENT_ID
 const client_secret = process.env.CLIENT_SECRET
 const client_app_url = process.env.CLIENT_APP_URL
-const redirect_uri = process.env.REDIRECT_URI
+const redirect_uri = "https://rhythmate-backend.onrender.com"
 
 const app = express()
 app.use(cors())
